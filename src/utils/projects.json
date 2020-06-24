@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Meal Recipe Generator",
+        "imageUrl": "assets/img/meal-corner.png",
+        "description": "This is my first collaborative project with the help of my colleages. The application will generate recipes for people at home who have a specific preferences but don't have recipes available.",
+        "deployedLink": "https://mariacasby1.github.io/group6/"
+    },
+    {
+        "id": 2,
+        "name": "Weather Dashboard",
+        "imageUrl": "assets/img/weather-dashboard.png",
+        "description": "This applicaiton is a weather dashboard based on the user input to find current weather conditions as well as weather forcast for the next five days of the city.It utilizes third-party API, the OpenWeather API, to access their data and functionality by making requests with specific parameters to a URL",
+        "deployedLink": "https://henokcity.github.io/weather-dashboard/"
+    },
+    {
+        "id": 3,
+        "name": "Daily Planner",
+        "imageUrl": "assets/img/daily-planner.png",
+        "description": "This is a simple calender application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.The applicationis built based on the given acceptance criterias. By using all available resorces, I tried to meet these criterias.",
+        "deployedLink": "https://henokcity.github.io/daily-planner/"
+    },
+    {
+        "id": 4,
+        "name": "Burger Logger/Eat-da-Burger!",
+        "imageUrl": "assets/img/eat-da-burger.PNG",
+        "description": "Eat-Da-Burger! is a restaurant app created with MySQL, Node, Express, Handlebars and a homemade ORM.Theapp lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right sideof the page. And also, it will store every burger in a database, whether devoured or not.",
+        "deployedLink": "https://glacial-caverns-30885.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "name": "Coffee Express",
+        "imageUrl": "assets/img/coffee-express.PNG",
+        "description": "This is the my second collaborative fullstack project which enables users to rate and reveiw coffee they like. It also allows users to search for Starbucks locations and get its rating of their favorite coffee drinks. Using Passport NPM package, it authenticates users login and signups and direct users to approprate routes.",
+        "deployedLink": "https://shrouded-ocean-64037.herokuapp.com/"
+    }
+]
