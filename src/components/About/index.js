@@ -1,15 +1,13 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
-/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
 function About() {
     return (
         <div className="row no-gutters">
             <div className="col-md-4">
-                <img src="" className="card-img" alt=""/>
+                <img src="assets/img/portfolio.jpg" className="card-img" alt=""/>
                 <div className="social">
-                    <a className="fab fa-github-square" href="https://www.github.com" target="_blank"></a>
-                    <a className="fab fa-linkedin" href="https://www.linkedin.com" target="_blank"></a>
+                    {/* <a className="fab fa-github-square" href="https://www.github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a className="fab fa-linkedin" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">Linkedin</a> */}
                 </div>
             </div>
             <div className="col-md-6 center">

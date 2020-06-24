@@ -12,7 +12,7 @@ function Section(props) {
                     </div>
                     <div className="col-md-6">
                         <div className="row tiles">
-                            <a href={props.deployedLink} target="_blank"><img src={props.imageUrl} className="card-img-top" alt={props.name} /></a>
+                            <a href={props.deployedLink} ><img src={props.imageUrl} className="card-img-top" alt={props.name} /></a>
                         </div>
                     </div>
                 </div>

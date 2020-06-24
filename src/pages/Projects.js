@@ -8,18 +8,17 @@ class Projects extends Component {
     };
 
     render() {
-        return (   
-
-        this.state.projectLists.map(project => (
-            <Section
-                id={project.id}
-                key={project.id}
-                name={project.name}
-                imageUrl={project.imageUrl}
-                depoyedlink={project.deployedLink}
-                description={project.description}
-            />
-        ))
+        return (     
+            this.state.projectLists.map(project => (
+                <Section
+                    id={project.id}
+                    key={project.id}
+                    name={project.name}
+                    imageUrl={project.imageUrl}
+                    depoyedlink={project.deployedLink}
+                    description={project.description}
+                />
+            ))
 
         );
     }
