@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css";
 
 function About() {
     return (
         <div className="row no-gutters">
             <div className="col-md-4">
-                <img src="assets/img/portfolio.jpg" className="card-img" alt=""/>
+                <img src="assets/img/portfolio.jpg" className="card-img" alt="" />
                 <div className="social">
                     {/* <a className="fab fa-github-square" href="https://www.github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
                     <a className="fab fa-linkedin" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">Linkedin</a> */}
@@ -13,22 +14,28 @@ function About() {
             <div className="col-md-6 center">
                 <div className="card-body">
                     <h5 className="card-title">About me</h5>
-                    <p className="card-text">Henok Tilahun is a designer, developer, and speaker with a passion for technology,
-                    challenges, and all things design. He believes that fast-paced, iteractive, holistic design is the best
-                    way to drive product innovation, and can support that belief with a lot of evidence. He has a desire to
-                    work with big companies,non-profits, and upcoming companies alike, and is currently writing this bio while
-                    referring to himself in the third person.
-                        </p>
+                    <p className="card-text">I am a designer, developer, and speaker with a passion for technology and challenges in a digital community. I believe that fast-paced, iteractive, holistic web design is the best way to drive product innovation. I merge a vitality for usability and user experience with technical knowledge to create cool digital experiences. I have been seasoned with various front-end and back-end programming languages, responsive frameworks, database and tools for best code practice. I strongly understand the dynamic nature of the field, that is why I update myself in every way possible. My objective is simply to be the best web developer and to contribute all I have to the technology industry.</p>
+                    <div className="container-fluid padding">
                     <h5>Currently working on the following languages and frameworks:</h5>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Java Script</li>
-                        <li>J-Query JS Liberary</li>
-                        <li>Bootstrap CSS Frameworks</li>
-                        <li>Foundation CSS Frameworks</li>
-                        <li>Node JS</li>
-                    </ul>
+                        <div className="row text-center padding">
+                            <div className="col-xs-12 col-sm-6 col-md-4">
+                                <p><i className="fab fa-html5"></i></p>
+                                <p> <i className="fab fa-js"></i></p>
+                                <p> jQuery</p>
+                            </div>
+                            <div className="col-xs-12 col-sm-6 col-md-4">
+                                <p><i className="fab fa-bootstrap"></i></p>
+                                <p><i className="fab fa-node"></i></p>
+                                <p>MySQL</p>
+                            </div>
+                            <div className="col-sm-12 col-md-4">
+                                <p><i className="fab fa-css3"></i></p>
+                                <p><i className="fab fa-react"></i></p>
+                                <p>MongoDB</p>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
 
                 </div>
             </div>
