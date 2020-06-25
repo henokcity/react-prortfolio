@@ -4,3 +4,49 @@ html, body  {
     color: #ffffff;
     font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.card-img {
+    border-radius: 20%;
+    height: 70%;
+    width: 70%;
+    margin-left: 100px;
+}
+.card-img-top {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+
+.fa-html5 {
+    font-size: 60px;
+    color:orangered;
+}
+.fa-bootstrap {
+    font-size: 60px;
+    color: purple;
+}
+.fa-node {
+    font-size: 60px;
+    color: lightgreen;
+}
+.fa-css3 {
+    font-size: 60px;
+    color: blue;
+}
+.fa-react {
+    font-size: 60px;
+    color:lightskyblue;
+}
+.fa-js {
+    font-size: 60px;
+    color: yellow;
+}
+
+.fa-github-square {
+    color:white;
+    font-size: 30px;
+}
+.fa-linkedin {
+    font-size: 30px;
+    color: blue;
+}

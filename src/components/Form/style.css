@@ -1,0 +1,18 @@
+.form-group {
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+.btn {
+    background-color: red;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #030328;
+  
+}

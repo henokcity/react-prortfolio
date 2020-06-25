@@ -21,17 +21,17 @@ function About() {
                             <div className="col-xs-12 col-sm-6 col-md-4">
                                 <p><i className="fab fa-html5"></i></p>
                                 <p> <i className="fab fa-js"></i></p>
-                                <p> jQuery</p>
+                                <h5> jQuery</h5>
                             </div>
                             <div className="col-xs-12 col-sm-6 col-md-4">
                                 <p><i className="fab fa-bootstrap"></i></p>
                                 <p><i className="fab fa-node"></i></p>
-                                <p>MySQL</p>
+                                <h5>MySQL</h5>
                             </div>
                             <div className="col-sm-12 col-md-4">
                                 <p><i className="fab fa-css3"></i></p>
                                 <p><i className="fab fa-react"></i></p>
-                                <p>MongoDB</p>
+                                <h5>MongoDB</h5>
                             </div>
                         </div>
                         <hr />

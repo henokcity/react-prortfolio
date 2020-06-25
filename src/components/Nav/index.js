@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Nav() {
   return (
@@ -31,10 +32,10 @@ function Nav() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="projects" className="btn btn-sm">projects</a>
+            <a href="projects" className="btn btn-sm">Projects</a>
           </li>
           <li className="nav-item">
-            <a href="contact" className="btn btn-sm">contact</a>
+            <a href="contact" className="btn btn-sm">Contact</a>
           </li>
         </ul>
       </div>

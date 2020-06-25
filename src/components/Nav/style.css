@@ -1,0 +1,15 @@
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar, .nav {
+    background-color: #030328;
+    color: #ffffff!important;
+    
+}
