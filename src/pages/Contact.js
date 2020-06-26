@@ -7,12 +7,7 @@ function Contact() {
             <div className="row">
                 <div className="col-md-6">
                     <img className="resume" src="assets/img/resume.PNG" alt="resume"></img>
-                    {/* <button className="btn btn-success">
-                        Download resume
-                    </button> */}
-                    <FormBtn>
-                        Download resume
-                    </FormBtn>
+                    <a href="https://docs.google.com/document/d/1qVRYtOzqe7kSTfaMgMAEzNN9SS9mOSn4Yn5JDv8jUws/edit?usp=sharing"><FormBtn>Download resume</FormBtn></a>
                 </div>
                 <div className="col-md-6">
                     <form>

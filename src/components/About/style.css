@@ -41,6 +41,14 @@ html, body  {
     font-size: 60px;
     color: yellow;
 }
+.icon-mysql {
+    font-size: 60px;
+    color: white;
+}
+.icon-mongodb {
+    font-size: 60px;
+    color: greenyellow; 
+}
 
 .fa-github-square {
     color:white;

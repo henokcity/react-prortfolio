@@ -26,12 +26,12 @@ function About() {
                             <div className="col-xs-12 col-sm-6 col-md-4">
                                 <p><i className="fab fa-bootstrap"></i></p>
                                 <p><i className="fab fa-node"></i></p>
-                                <h5>MySQL</h5>
+                                <p><i className="icon-mysql"></i></p>
                             </div>
                             <div className="col-sm-12 col-md-4">
                                 <p><i className="fab fa-css3"></i></p>
                                 <p><i className="fab fa-react"></i></p>
-                                <h5>MongoDB</h5>
+                                <p><i className="icon-mongodb"></i></p>
                             </div>
                         </div>
                         <hr />
