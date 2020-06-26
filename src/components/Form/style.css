@@ -11,11 +11,12 @@
 
 .formBtn {
     margin: 20px 30px 40px 0px;
+    
 }
 .btn:hover {
     background-color: #ffffff;
     color: #030328;
-  
+    border-color: #ffffff;
 }
 .resume {
     height: 90%;
