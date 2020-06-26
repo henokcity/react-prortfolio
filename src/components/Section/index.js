@@ -1,4 +1,5 @@
 import React from "react";
+import { FormBtn } from "../Form";
 
 function Section(props) {
     return (
@@ -12,7 +13,9 @@ function Section(props) {
                     </div>
                     <div className="col-md-6">
                         <div className="row tiles">
-                            <a href={props.deployedLink} ><img src={props.imageUrl} className="card-img-top" alt={props.name} /></a>
+                            <img src={props.imageUrl} className="card-img-top" alt={props.name} />
+                            <a href={props.deployedLink} ><FormBtn>Deployed Link</FormBtn></a>
+                            <a href={props.githubRepo} ><FormBtn>GitHub Repo</FormBtn></a>
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,8 @@ class Projects extends Component {
                     key={project.id}
                     name={project.name}
                     imageUrl={project.imageUrl}
-                    depoyedlink={project.deployedLink}
+                    deployedLink={project.deployedLink}
+                    githubRepo={project.githubRepo}
                     description={project.description}
                 />
             ))
