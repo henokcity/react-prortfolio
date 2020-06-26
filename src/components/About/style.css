@@ -46,7 +46,10 @@ html, body  {
     color:white;
     font-size: 30px;
 }
+.fa-github-square:hover {
+    color: #ffffffcc;
+}
 .fa-linkedin {
     font-size: 30px;
-    color: blue;
+    color: #0e76a8;
 }
