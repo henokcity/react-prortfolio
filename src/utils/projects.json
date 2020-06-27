@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Budget Tracker",
-        "imageUrl": "assets/img/budget-tracker.png",
+        "imageUrl": "assets/img/budget-tracker.PNG",
         "description": "The Budget Tracker App enables the user to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. Offline functionality includes entering deposits as well as expenses offline, and when brought back online Offline entries should be added to tracker.",
         "deployedLink": "https://stark-shore-88430.herokuapp.com/",
         "githubRepo": "https://github.com/henokcity/budget-tracker-PWA.git"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Workout Tracker",
-        "imageUrl": "assets/img/workout-tracker.png",
+        "imageUrl": "assets/img/workout-tracker.PNG",
         "description": "The workout tracker app create and track daily workouts based on users inputs and save the workouts in the database. It also shows the recorded weekly graphic stats which enables the user to track the daily workout in terms of name, type, weight, sets, reps, and duration of exercise",
         "deployedLink": "https://calm-tor-43219.herokuapp.com/",
         "githubRepo": "https://github.com/henokcity/workout-tracker.git"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Employee Directory",
-        "imageUrl": "assets/img/employee-directory.png",
+        "imageUrl": "assets/img/employee-directory.PNG",
         "description": "This is an employee directory application built with React. It enables user to view the entire employee directory at once and have quick access to their information. The application's UI is broken up into components, and each components state managed to respond to user events.",
         "deployedLink": "https://obscure-headland-90482.herokuapp.com/",
         "githubRepo": "https://github.com/henokcity/employee-directory.git"
