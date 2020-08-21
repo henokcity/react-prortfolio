@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
-import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-        <Footer/>
       </div>
     </Router>
   );

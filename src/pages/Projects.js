@@ -1,15 +1,14 @@
-import React, { Component } from "react";
+import React, { Fragment } from "react";
 import projectLists from "../utils/projects.json";
 import Section from "../components/Section";
+import Footer from "../components/Footer";
 
-class Projects extends Component {
-    state = {
-        projectLists
-    };
 
-    render() {
-        return (     
-            this.state.projectLists.map(project => (
+
+function projects() {
+    return (
+        <Fragment>
+            {projectLists.map(project => (
                 <Section
                     id={project.id}
                     key={project.id}
@@ -19,10 +18,15 @@ class Projects extends Component {
                     githubRepo={project.githubRepo}
                     description={project.description}
                 />
-            ))
 
-        );
-    }
-}
+            ))}
+            <Footer />
+        </Fragment>
+    );
 
-export default Projects;
+};
+
+
+
+
+export default projects;

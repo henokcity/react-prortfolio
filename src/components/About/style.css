@@ -16,7 +16,10 @@ html, body  {
     box-shadow: 0 0 10px 2px;
 }
 
-
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
 .fa-html5 {
     font-size: 60px;
     color:orangered;
@@ -33,7 +36,7 @@ html, body  {
     font-size: 60px;
     color: blue;
 }
-.fa-react {
+.fa-react, .icon-jquery {
     font-size: 60px;
     color:lightskyblue;
 }
@@ -49,12 +52,32 @@ html, body  {
     font-size: 60px;
     color: greenyellow; 
 }
+.fa-envelope {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+b {
+    display: none;
+}
 
-.fa-github-square {
+.fa-html5:hover ~ b,
+.fa-bootstrap:hover ~ b,
+.fa-node:hover ~ b,
+.fa-css3:hover ~ b,
+.fa-react:hover ~ b,
+.fa-js:hover ~ b,
+.icon-mysql:hover ~ b,
+.icon-mongodb:hover ~ b,
+.icon-jquery:hover ~ b {
+    display: block;
+}
+.fa-github-square, .fa-external-link-alt  {
     color:white;
     font-size: 30px;
+    margin: 10px;
 }
-.fa-github-square:hover {
+.fa-external-link-alt:hover, .fa-github-square:hover {
     color: #ffffffcc;
 }
 .fa-linkedin {
